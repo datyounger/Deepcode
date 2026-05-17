@@ -65,47 +65,7 @@
 
 ---
 
-## 📁 Cấu trúc dự án
 
-```
-DeepCode/
-├── pom.xml                          # Maven configuration
-├── deepcode.properties              # File cấu hình runtime
-├── deepcode.db                      # SQLite database (tự tạo)
-├── README_VIETNAMESE.md             # Tài liệu hướng dẫn
-├── TEST_REPORT.md                   # Báo cáo thử nghiệm
-├── .mvn/wrapper/                    # Maven wrapper
-└── src/main/
-    ├── java/com/deepcode/
-    │   ├── App.java                 # Entry point (JavaFX Application)
-    │   ├── Launcher.java            # Launcher cho fat JAR
-    │   ├── controller/              # Xử lý giao diện
-    │   │   ├── MainController.java  # Điều hướng chính
-    │   │   ├── UserController.java  # Quản lý nick
-    │   │   ├── AnalysisController.java  # Phân tích AI
-    │   │   ├── ReportController.java    # Báo cáo
-    │   │   └── SettingsController.java  # Cài đặt
-    │   ├── dao/                     # Truy xuất dữ liệu
-    │   │   ├── DatabaseManager.java # Singleton DB manager
-    │   │   ├── UserDAO.java         # CRUD users
-    │   │   ├── SubmissionDAO.java   # CRUD submissions
-    │   │   └── AnalysisDAO.java     # CRUD analysis results
-    │   ├── model/                   # Data models
-    │   │   ├── User.java
-    │   │   ├── Submission.java
-    │   │   ├── AnalysisResult.java
-    │   │   └── UserEvaluation.java
-    │   ├── service/                 # Business logic
-    │   │   ├── CrawlerService.java  # Crawl code từ platforms
-    │   │   ├── CodeforcesAPI.java   # Codeforces API client
-    │   │   ├── VJudgeAPI.java       # VJudge API client
-    │   │   ├── AIAnalyzer.java      # Gemini AI analyzer
-    │   │   └── SchedulerService.java# Scheduled crawl tasks
-    │   └── util/
-    │       └── Config.java          # Configuration manager
-    └── resources/
-        └── styles.css               # CSS styling
-```
 
 ### Mô tả các package
 
