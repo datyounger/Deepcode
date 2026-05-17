@@ -121,7 +121,7 @@ mvn -version
 #### Bước 3: Clone/Download dự án
 ```powershell
 # Nếu có git
-git clone <repository-url>
+git clone <https://github.com/datyounger/Deepcode.git>
 cd DeepCode-1.2.0
 
 # Hoặc giải nén file zip đã tải
