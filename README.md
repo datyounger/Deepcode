@@ -109,11 +109,11 @@ java -version
 **Cách 1: Tải thủ công**
 1. Truy cập https://maven.apache.org/download.cgi
 2. Tải file `apache-maven-3.9.x-bin.zip`
-3. Giải nén vào thư mục mong muốn (ví dụ: `D:\Dat\apache-maven-3.9.15-bin`)
+3. Giải nén vào thư mục mong muốn (ví dụ: `C:\apache-maven-3.9.15-bin`)
 4. Thêm đường dẫn `bin` vào PATH:
    - Mở **System Properties** → **Environment Variables**
    - Chọn **Path** trong **System variables** → **Edit**
-   - Thêm đường dẫn: `D:\Dat\apache-maven-3.9.15-bin\apache-maven-3.9.15\bin`
+   - Thêm đường dẫn: `C:\apache-maven-3.9.15-bin\apache-maven-3.9.15\bin`
    - Nhấn **OK** và mở terminal mới
 
 **Cách 2: Sử dụng Chocolatey**
