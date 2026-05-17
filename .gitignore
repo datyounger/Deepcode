@@ -1,0 +1,35 @@
+# Build output
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+~$*
+~WRL*.tmp
+*.tmp
+
+# Database (optional - uncomment if you don't want to commit DB)
+# deepcode.db
+# deepcode.db-shm
+# deepcode.db-wal
+
+# Properties with secrets (uncomment if API key is stored here)
+# deepcode.properties
+
+# AI agent skills
+src/.minimax/
+src/.agents/
+
+# Logs
+*.log
