@@ -1,15 +1,5 @@
 # DeepCode v1.2.0 - Hướng Dẫn Cài Đặt và Sử Dụng
 
-## 📋 Mục Lục
-1. [Giới thiệu](#giới-thiệu)
-2. [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
-3. [Hướng dẫn cài đặt](#hướng-dẫn-cài-đặt)
-4. [Hướng dẫn sử dụng](#hướng-dẫn-sử-dụng)
-5. [Cấu hình hệ thống](#cấu-hình-hệ-thống)
-6. [Xử lý sự cố](#xử-lý-sự-cố)
-
----
-
 ## 🏠 Giới thiệu
 
 **DeepCode** là hệ thống phân tích code Competitive Programming sử dụng AI để:
